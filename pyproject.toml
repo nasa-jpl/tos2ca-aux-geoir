@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auxgeoir_module"
+version = "2.1"
+description = "TOS2CA AUX-GEOIR Library"
+readme = "README.md"
+requires-python = "==3.9.23"
+license = { text = "Apache 2.0" }
+authors = [
+  { name = "Brian Knosp", email = "Brian.Knosp@jpl.nasa.gov" }
+]
+
+dependencies = [
+  "imageio==2.37.0",
+  "lazy_loader==0.4",
+  "llvmlite==0.43.0",
+  "networkx==3.2.1",
+  "numba==0.60.0",
+  "numpy==2.0.2",
+  "packaging==25.0",
+  "pandas==2.3.3",
+  "pillow==11.3.0",
+  "python-dateutil==2.9.0.post0",
+  "pytz==2025.2",
+  "scikit-image==0.24.0",
+  "scipy==1.13.1",
+  "six==1.17.0",
+  "tifffile==2024.8.30",
+  "tqdm==4.67.1",
+  "tzdata==2025.2"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
