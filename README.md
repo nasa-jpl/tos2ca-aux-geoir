@@ -4,6 +4,9 @@
 
 [![Language](https://img.shields.io/badge/python-3.9-blue)](#)
 
+[![Build Check](https://github.com/nasa-jpl/tos2ca-aux-geoir/actions/workflows/build_check.yaml/badge.svg)](https://github.com/nasa-jpl/tos2ca-aux-geoir/actions/workflows/build_check.yaml)
+
+
 The version of `aux-geoir` in this repository is part of the of NASA TOS2CA Project. For more information, visit the TOS2CA website at [https://nasa-jpl.github.io/tos2ca-documentation/](https://nasa-jpl.github.io/tos2ca-documentation/).
 
 This program implements the pipeline for identifying and tracking convective storm systems using 11 micron infrared satellite imagery as inputs.  It is currenlty only used with the [GPM MERGIR](https://disc.gsfc.nasa.gov/datasets/GPM_MERGIR_1/summary?keywords=GPM_MERGIR_1) data set in TOS2CA.  It also works off of a threshold value in a manned described  in #1 below. 
