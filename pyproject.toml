@@ -33,6 +33,14 @@ dependencies = [
   "tzdata==2025.2"
 ]
 
+[project.optional-dependencies]
+test = [
+  "pytest>=7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["src/auxgeoir_module/tests"]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
