@@ -3,7 +3,7 @@ lazy_loader==0.4
 llvmlite==0.43.0
 networkx==3.2.1
 numba==0.60.0
-numpy==12.4.3
+numpy==1.24.3
 packaging==25.0
 pandas==1.5.3
 pillow==9.4.0
@@ -15,3 +15,4 @@ six==1.16.0
 tifffile==2024.8.30
 tqdm==4.67.1
 tzdata==2025.2
+pytest>=7.0

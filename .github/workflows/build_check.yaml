@@ -34,3 +34,9 @@ jobs:
       run: |
         pip install dist/*.whl
         python -c "import auxgeoir_module; print('Import successful!')"
+
+    - name: Install test dependencies
+      run: pip install pytest
+
+    - name: Run unit tests
+      run: pytest src/auxgeoir_module/tests/ -v
